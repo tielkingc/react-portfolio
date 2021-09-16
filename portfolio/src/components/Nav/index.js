@@ -1,10 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Nav() {
     return (
-        <header className="flex-row px-1">
+        <div className="flex-row px-1 bg-primary">
             <h2>Christian Tielking</h2>
-        </header>
+            <nav className="navbar">
+                <Link to="/projects" className="nav-link text-light">Projects</Link>
+            </nav>
+        </div>
     )
 }
 
