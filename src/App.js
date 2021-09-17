@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Nav from './components/Nav'
 import Repos from './pages/Projects'
 import Contact from './pages/Contact';
+import About from './pages/AboutMe';
 
 <link
   rel="stylesheet"
@@ -20,6 +21,7 @@ function App() {
         <Switch>
           <Route exact path="/projects" component={Repos} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/about" component={About} />
         </Switch>
       </Router>
     </div>
