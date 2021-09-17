@@ -25,6 +25,12 @@ function Projects() {
                         </div>
                     </div>
                 ))}
+                <div className="col-2 repo" style={{ "--img": `url('https://picsum.photos/300?random=39')` }}>
+                        <div>
+                        <a href="https://github.com/esherrow/SL-warehouse" target="_blank" rel="noreferrer" className="repoTitle">S&L Warehouse</a><br/>
+                        <a href="https://sl-warehouse.herokuapp.com/" target="_blank" rel="noreferrer" className="deploy">Deployed Site</a>
+                        </div>
+                    </div>
             </div>
         </div>
     )
