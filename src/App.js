@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Nav from './components/Nav'
 import Repos from './pages/Projects'
+import Contact from './pages/Contact';
 
 <link
   rel="stylesheet"
@@ -18,6 +19,7 @@ function App() {
         <Nav></Nav>
         <Switch>
           <Route exact path="/projects" component={Repos} />
+          <Route exact path="/contact" component={Contact} />
         </Switch>
       </Router>
     </div>

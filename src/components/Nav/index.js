@@ -7,6 +7,7 @@ function Nav() {
             <h2>Christian Tielking</h2>
             <nav className="navbar">
                 <Link to="/projects" className="nav-link text-light">Projects</Link>
+                <Link to="/contact" className="nav-link text-light">Contact Me</Link>
             </nav>
         </div>
     )
