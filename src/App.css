@@ -33,9 +33,8 @@
   padding: 4em;
   margin: 1em;
   text-align: center;
-  background-image: 
-  linear-gradient(0deg,#00000088 30%, #ffffff44 100%), 
-  var(--img)
+  background-color: #6e0e0a;
+  text-decoration: none;
 }
 
 @keyframes App-logo-spin {
@@ -45,4 +44,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav {
+  background-color: #124E78;
+  color: white;
+}
+
+.main {
+  background-color: #C44708;
+}
+
+.repo a {
+  text-decoration: none;
+  color: white;
+}
+
+.repo a:hover {
+  color: gray;
 }

@@ -15,13 +15,13 @@ import About from './pages/AboutMe';
 
 function App() {
   return (
-    <div>
+    <div className="main">
       <Router>
         <Nav></Nav>
         <Switch>
           <Route exact path="/projects" component={Repos} />
           <Route exact path="/contact" component={Contact} />
-          <Route exact path="/about" component={About} />
+          <Route exact path="/" component={About} />
         </Switch>
       </Router>
     </div>
